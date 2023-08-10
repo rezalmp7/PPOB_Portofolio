@@ -1,0 +1,2090 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PulsaVIP</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/website/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/website/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/website/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/website/favicon/site.webmanifest">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../vendor/uikit/css/uikit.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/font.css" />
+
+    <!-- JS -->
+    <script src="../vendor/uikit/js/uikit.min.js"></script>
+    <script src="../vendor/uikit/js/uikit-icons.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
+        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+</head>
+
+<body>
+    <div class="uk-container uk-container-expand uk-margin-remove uk-padding-remove" id="user-dashboard">
+        <div class="header uk-width-1-1 uk-padding-remove uk-margin-remove">
+            <div class="navbar uk-width-1-1 uk-padding-remove uk-margin-remove">
+                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove uk-visible@m">
+                    <div
+                        uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; top: 200">
+                        <nav class="uk-navbar-container uk-padding uk-padding-remove-vertical" uk-navbar="mode: click">
+                            <div class="uk-navbar-left">
+                                <img style="height: 35px" class="uk-visible@l" src="../img/website/logo_1.png">
+                                <img style="height: 35px" class="uk-hidden@l" src="../img/website/logo.png">
+                            </div>
+
+                            <div class="uk-navbar-right">
+
+                                <ul class="uk-navbar-nav">
+                                    <li class="uk-active uk-margin-medium-right poppins-medium"><a
+                                            class="ppob-button-text" href="index.html">Halaman Utama</a></li>
+                                    <li class="uk-margin-medium-right poppins-medium"><a class="ppob-button-text"
+                                            href="cara_transaksi.html">Peringkat Bulanan</a></li>
+                                    <li class="uk-margin-medium-right poppins-medium"><a class="ppob-button-text"
+                                            href="cara_transaksi.html#cara-deposite" uk-scroll>Bantuan</a></li>
+                                    <li>
+                                        <a href="#"><span class="iconify" data-icon="clarity:notification-solid-badged"
+                                                data-inline="false"></span></a>
+                                        <div class="uk-navbar-dropdown"
+                                            uk-drop="boundary: ul; boundary-align: true; pos: bottom-justify; mode: click;">
+                                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                <li class="uk-active">
+                                                    <a href="#" class="uk-display-block">
+                                                        <div class="uk-width-1-1 uk-padding-remove uk-margin-remove"
+                                                            uk-grid>
+                                                            <div style="width:30px"
+                                                                class="uk-padding-remove uk-margin-small-right">
+                                                                <img src="../img/panel_user/img-icon.png"
+                                                                    style="width: 30px">
+                                                            </div>
+                                                            <div class="uk-width-expand uk-padding-remove uk-margin-remove"
+                                                                uk-grid>
+                                                                <div
+                                                                    class="uk-width-expand uk-padding-remove uk-margin-remove">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                                    elit. Lorem ipsum dolor sit amet, consectetur
+                                                                    adipiscing elit.
+                                                                </div>
+                                                                <div
+                                                                    class="uk-width-auto uk-padding-remove uk-margin-remove">
+                                                                    12 Maret 2014
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="uk-active">
+                                                    <a href="#" class="uk-display-block">
+                                                        <div class="uk-width-1-1 uk-padding-remove uk-margin-remove"
+                                                            uk-grid>
+                                                            <div style="width:30px"
+                                                                class="uk-padding-remove uk-margin-small-right">
+                                                                <img src="../img/panel_user/img-icon.png"
+                                                                    style="width: 30px">
+                                                            </div>
+                                                            <div class="uk-width-expand uk-padding-remove uk-margin-remove"
+                                                                uk-grid>
+                                                                <div
+                                                                    class="uk-width-expand uk-padding-remove uk-margin-remove">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                                    elit. Lorem ipsum dolor sit amet, consectetur
+                                                                    adipiscing elit.
+                                                                </div>
+                                                                <div
+                                                                    class="uk-width-auto uk-padding-remove uk-margin-remove">
+                                                                    12 Maret 2014
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="uk-active">
+                                                    <a href="#" class="uk-display-block">
+                                                        <div class="uk-width-1-1 uk-padding-remove uk-margin-remove"
+                                                            uk-grid>
+                                                            <div style="width:30px"
+                                                                class="uk-padding-remove uk-margin-small-right">
+                                                                <img src="../img/panel_user/img-icon.png"
+                                                                    style="width: 30px">
+                                                            </div>
+                                                            <div class="uk-width-expand uk-padding-remove uk-margin-remove"
+                                                                uk-grid>
+                                                                <div
+                                                                    class="uk-width-expand uk-padding-remove uk-margin-remove">
+                                                                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                                    elit. Lorem ipsum dolor sit amet, consectetur
+                                                                    adipiscing elit.
+                                                                </div>
+                                                                <div
+                                                                    class="uk-width-auto uk-padding-remove uk-margin-remove">
+                                                                    12 Maret 2014
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="uk-inline" href="#">
+                                            <div class="uk-rounded-cicle uk-background-cover"
+                                                style="background-image:url('../img/panel_user/user/pp_1.png'); width: 30px; height: 30px">
+                                            </div>
+                                            <div uk-dropdown="mode: click">
+                                                <a class="uk-link-text" href="#">Logout</a>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="uk-width-1-1 uk-margin-remove uk-padding-small uk-hidden@m">
+                    <div class="uk-width-1-1 uk-background-contain"
+                        style="height: 40px; background-image: url('../img/website/logo_1.png');">
+                        <a href="#menu_mobile" uk-toggle><img src="../img/website/toggle_sidebar.png"></a>
+                    </div>
+                    <div id="menu_mobile" uk-offcanvas>
+                        <div class="uk-offcanvas-bar">
+                            <ul class="uk-nav uk-nav-default poppins-normal">
+                                <li class="uk-active"><a href="index.html">Halaman Utama</a></li>
+                                <li><a href="cara_transaksi.html">Cara Peringkat Bulanan</a></li>
+                                <li><a href="cara_transaksi.html#cara-deposite">Bantuan</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body uk-width-1-1 uk-padding-remove uk-margin-medium-top">
+            <div class="slideshow uk-width-1-1 uk-padding-small uk-margin-remove">
+                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove uk-flex-center" uk-grid>
+                    <div class="uk-width-5-6@s uk-padding-remove uk-margin-remove">
+                        <h5>Halaman Utama</h5>
+                        <div class="uk-width-1-1 uk-padding-remove uk-margin-remove">
+                            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 7:2">
+                            
+                                <ul class="uk-slideshow-items">
+                                    <li>
+                                        <img src="../img/panel_user/promo/promo_1.png" alt="" uk-cover>
+                                    </li>
+                                    <li>
+                                        <img src="../img/panel_user/promo/promo_1.png" alt="" uk-cover>
+                                    </li>
+                                    <li>
+                                        <img src="../img/panel_user/promo/promo_1.png" alt="" uk-cover>
+                                    </li>
+                                </ul>
+                            
+                                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                                    uk-slideshow-item="previous"></a>
+                                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                                    uk-slideshow-item="next"></a>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-bottom uk-width-1-1 uk-margin-remove uk-padding-remove">
+                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove uk-flex-center" uk-grid>
+                    <div class="uk-width-5-6@s uk-padding-remove uk-margin-remove">
+                        <div class="uk-width-1-1 uk-padding-remove uk-margin-remove uk-clearfix uk-grid-match">
+                            <div class="saldo uk-width-1-5@s uk-float-right uk-padding-remove">
+                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                    <div class="all-saldo uk-child-width-1-2 uk-width-1-1 uk-padding-remove uk-margin-remove" uk-grid>
+                                        <div class="coin uk-padding-small uk-margin-remove uk-text-center color-black">
+                                            <div class="head open-sans-regular">Coin Anda</div>
+                                            <span class="iconify" data-icon="akar-icons:coin" data-width="30" data-inline="false"></span>
+                                            <div class="ncoin poppins-medium uk-margin-small-top">Rp. 12.314</div>
+                                        </div>
+                                        <div class="wallet uk-padding-small uk-margin-remove uk-text-center color-black">
+                                            <div class="head open-sans-regular">Saldo Anda</div>
+                                            <span class="iconify" data-icon="jam:box" data-width="30" data-inline="false"></span>
+                                            <div class="nwallet poppins-medium uk-margin-small-top">Rp. 12.314</div>
+                                        </div>
+                                    </div>
+                                    <div class="top-up uk-width-1-1 uk-padding-small uk-margin-remove">
+                                        <div class="body uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                            <div class="link uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                                <a href="#" class="uk-width-1-1 uk-border-rounded uk-display-block uk-padding-small uk-margin-remove poppins-medium uk-text-small">
+                                                    <span class="iconify uk-margin-small-right" data-icon="uil:money-insert" data-width="30" data-inline="false"></span>Top Up Saldo
+                                                </a>
+                                            </div>
+                                            <div class="link uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                                <a href="#" class="uk-width-1-1 uk-border-rounded uk-display-block uk-padding-small uk-margin-remove poppins-medium uk-text-small">
+                                                    <span class="iconify uk-margin-small-right" data-width="30" data-icon="bi:clock-history" data-inline="false"></span>Riwayat Saldo
+                                                </a>
+                                            </div>
+                                            <div class="link uk-width-1-1 uk-padding-remove uk-margin-remove" uk-grid>
+                                                <a href="#" class="uk-width-1-1 uk-border-rounded uk-display-block uk-padding-small uk-margin-remove poppins-medium uk-text-small"><span class="iconify" data-icon="bi:cart" data-width="30" data-inline="false"></span> <span>Riwayat Pemesanan</span></a>
+                                            </div>
+                                            <div class="link uk-width-1-1 uk-padding-remove uk-margin-remove" uk-grid>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grafik uk-child-width-1-2 uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                        <div class="uk-width-1-1 uk-padding-small uk-padding-remove-bottom uk-margin-remove">
+                                            <div class="border-bar uk-width-1-1 uk-padding-small uk-margin-remove uk-clearfix ibm-plex-bold uk-background-norepeat" style="background-image: url('../img/panel_user/background-bar.png'); background-size: 90% 100%;">
+                                                <span class="uk-float-left text-uppercase">Pulsa</span>
+                                                <span class="uk-float-right jumlah">20</span>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-1-1 uk-padding-small uk-padding-remove-bottom uk-margin-remove">
+                                            <div class="border-bar uk-width-1-1 uk-padding-small uk-margin-remove uk-clearfix ibm-plex-bold uk-background-norepeat"
+                                                style="background-image: url('../img/panel_user/background-bar.png'); background-size: 80% 100%;">
+                                                <span class="uk-float-left text-uppercase">Voucer</span>
+                                                <span class="uk-float-right jumlah">10</span>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-1-1 uk-padding-small uk-padding-remove-bottom uk-margin-remove">
+                                            <div class="border-bar uk-width-1-1 uk-padding-small uk-margin-remove uk-clearfix ibm-plex-bold uk-background-norepeat"
+                                                style="background-image: url('../img/panel_user/background-bar.png'); background-size: 40% 100%;">
+                                                <span class="uk-float-left text-uppercase">E-Money</span>
+                                                <span class="uk-float-right jumlah">5</span>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-1-1 uk-padding-small uk-margin-remove">
+                                            <div class="border-bar uk-width-1-1 uk-padding-small uk-margin-remove uk-clearfix ibm-plex-bold uk-background-norepeat"
+                                                style="background-image: url('../img/panel_user/background-bar.png'); background-size: 0% 100%;">
+                                                <span class="uk-float-left text-uppercase">Pembayaran</span>
+                                                <span class="uk-float-right jumlah">0</span>
+                                            </div>
+                                        </div>
+                                        <p class="uk-width-1-1 uk-margin-remove uk-padding-remove uk-text-center">Grafik Pembelian Bulan Ini</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ppob uk-width-4-5@s uk-float-left uk-padding-small">
+                                <nav class="uk-navbar-container uk-width-1-1 uk-padding-remove uk-margin-remove" uk-navbar>
+                                    <div class="uk-navbar-left uk-width-1-1 uk-padding-remove uk-margin-remove" uk-filter="target: .js-filter">
+                                        
+                                        <ul class="uk-navbar-nav uk-grid-match">
+                                            <li>
+                                                <a class="uk-text-center uk-padding-small uk-padding-remove-vertical" uk-filter-control href="#">
+                                                    <div class="uk-width-1-1">
+                                                        <span class="iconify" data-icon="bi:border-all" data-inline="false" data-height="40"></span>
+                                                        <h5 class="poppins-medium color-black text-capitalize uk-padding-remove uk-margin-small-top uk-margin-small-bottom">
+                                                            Semua Produk</h5>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="uk-text-center uk-padding-small uk-padding-remove-vertical" href="#" uk-filter-control="[data-color='pulsa']">
+                                                    <div class="uk-width-1-1">
+                                                        <span class="iconify" data-icon="simple-line-icons:screen-smartphone" data-inline="false"
+                                                            data-height="40"></span>
+                                                        <h5 class="poppins-medium color-black text-capitalize uk-padding-remove uk-margin-small-top uk-margin-small-bottom">
+                                                            Pulsa</h5>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="uk-text-center uk-padding-small uk-padding-remove-vertical" href="#" uk-filter-control="[data-color='voucher']">
+                                                    <div class="uk-width-1-1">
+                                                        <span class="iconify" data-icon="uil:ticket" data-inline="false" data-height="40"></span>
+                                                        <h5 class="poppins-medium color-black text-capitalize uk-padding-remove uk-margin-small-top uk-margin-small-bottom">
+                                                            Voucher</h5>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="uk-text-center uk-padding-small uk-padding-remove-vertical" href="#" uk-filter-control="[data-color='emoney']">
+                                                    <div class="uk-width-1-1">
+                                                        <span class="iconify" data-icon="clarity:wallet-line" data-inline="false" data-height="40"></span>
+                                                        <h5 class="poppins-medium color-black text-capitalize uk-padding-remove uk-margin-small-top uk-margin-small-bottom">E-
+                                                            Money</h5>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="uk-text-center uk-padding-small uk-padding-remove-vertical" href="#" uk-filter-control="[data-color='pembayaran']">
+                                                    <div class="uk-width-1-1">
+                                                        <span class="iconify" data-icon="bx:bx-credit-card-alt" data-inline="false" data-height="40"></span>
+                                                        <h5 class="poppins-medium color-black text-capitalize uk-padding-remove uk-margin-small-top uk-margin-small-bottom">
+                                                            Pembayaran</h5>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="uk-text-center uk-padding-small uk-padding-remove-vertical" href="#" uk-filter-control="[data-color='spesial']">
+                                                    <div class="uk-width-1-1">
+                                                        <span class="iconify" data-icon="mdi:folder-star-outline" data-inline="false" data-height="40"></span>
+                                                        <h5 class="poppins-medium color-black text-capitalize uk-padding-remove uk-margin-small-top uk-margin-small-bottom">
+                                                            Spesial</h5>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <div class="uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                            <ul class="produk js-filter uk-width-1-1 uk-child-width-1-2 uk-child-width-1-6@m uk-text-center uk-padding uk-padding-remove-horizontal uk-margin-remove" uk-grid>
+                                                <li class="tag-white" data-color="pulsa">
+                                                    <a id="pulsa" class="uk-padding-remove uk-margin-remove">
+                                                        <div class="uk-card uk-border-rounded uk-card-default uk-card-body uk-padding-small uk-padding-remove-horizontal">
+                                                            <div class="icon uk-width-1-1 uk-border-rounded uk-padding-small uk-margin-remove color-white">
+                                                                <img style="height: 50px" src="../img/icon/produk/produk-pulsa.png">
+                                                            </div>
+                                                            <div class="title poppins-medium uk-margin-remove">Pulsa All Operator</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="tag-white" data-color="pulsa">
+                                                    <a id="paket_data" class="uk-padding-remove uk-margin-remove">
+                                                        <div class="uk-card uk-border-rounded uk-card-default uk-card-body uk-padding-small uk-padding-remove-horizontal">
+                                                            <div class="icon uk-width-1-1 uk-border-rounded uk-padding-small uk-margin-remove color-white">
+                                                                <img style="height: 50px" src="../img/icon/produk/produk-paket-data.png">
+                                                            </div>
+                                                            <div class="title poppins-medium uk-margin-remove">Paket Data</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="tag-white" data-color="voucher">
+                                                    <a id="voucher_game" class="uk-padding-remove uk-margin-remove">
+                                                        <div class="uk-card uk-border-rounded uk-card-default uk-card-body uk-padding-small uk-padding-remove-horizontal">
+                                                            <div class="icon uk-width-1-1 uk-border-rounded uk-padding-small uk-margin-remove color-white">
+                                                                <img style="height: 50px" src="../img/icon/produk/produk-voucher-games.png">
+                                                            </div>
+                                                            <div class="title poppins-medium uk-margin-remove">Voucher Games</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="tag-white" data-color="voucher">
+                                                    <a id="steam_wallet" class="uk-padding-remove uk-margin-remove">
+                                                        <div class="uk-card uk-border-rounded uk-card-default uk-card-body uk-padding-small uk-padding-remove-horizontal">
+                                                            <div class="icon uk-width-1-1 uk-border-rounded uk-padding-small uk-margin-remove color-white">
+                                                                <img style="height: 50px" src="../img/icon/produk/produk-steam-wallet.png">
+                                                            </div>
+                                                            <div class="title poppins-medium uk-margin-remove">Steam Wallet</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="tag-white" data-color="voucher">
+                                                    <a id="itunes" class="uk-padding-remove uk-margin-remove">
+                                                        <div class="uk-card uk-border-rounded uk-card-default uk-card-body uk-padding-small uk-padding-remove-horizontal">
+                                                            <div class="icon uk-width-1-1 uk-border-rounded uk-padding-small uk-margin-remove color-white">
+                                                                <img style="height: 50px" src="../img/icon/produk/produk-itunes.png">
+                                                            </div>
+                                                            <div class="title poppins-medium uk-margin-remove">Itunes</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="tag-white" data-color="voucher">
+                                                    <a id="tix_id" class="uk-padding-remove uk-margin-remove">
+                                                        <div class="uk-card uk-border-rounded uk-card-default uk-card-body uk-padding-small uk-padding-remove-horizontal">
+                                                            <div class="icon uk-width-1-1 uk-border-rounded uk-padding-small uk-margin-remove color-white">
+                                                                <img style="height: 50px" src="../img/icon/produk/produk-tix-id.png">
+                                                            </div>
+                                                            <div class="title poppins-medium uk-margin-remove">TIX ID</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="tag-white" data-color="emoney">
+                                                    <a id="gojek_customer" class="uk-padding-remove uk-margin-remove">
+                                                        <div class="uk-card uk-border-rounded uk-card-default uk-card-body uk-padding-small uk-padding-remove-horizontal">
+                                                            <div class="icon uk-width-1-1 uk-border-rounded uk-padding-small uk-margin-remove color-white">
+                                                                <img style="height: 50px" src="../img/icon/produk/produk-gojek.png">
+                                                            </div>
+                                                            <div class="title poppins-medium uk-margin-remove">Gojek Customer</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="tag-white" data-color="emoney">
+                                                    <a id="gojek_driver" class="uk-padding-remove uk-margin-remove">
+                                                        <div class="uk-card uk-border-rounded uk-card-default uk-card-body uk-padding-small uk-padding-remove-horizontal">
+                                                            <div class="icon uk-width-1-1 uk-border-rounded uk-padding-small uk-margin-remove color-white">
+                                                                <img style="height: 50px" src="../img/icon/produk/produk-gojek.png">
+                                                            </div>
+                                                            <div class="title poppins-medium uk-margin-remove">Gojek Driver</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="tag-white" data-color="emoney">
+                                                    <a id="grab_customer" class="uk-padding-remove uk-margin-remove">
+                                                        <div class="uk-card uk-border-rounded uk-card-default uk-card-body uk-padding-small uk-padding-remove-horizontal">
+                                                            <div class="icon uk-width-1-1 uk-border-rounded uk-padding-small uk-margin-remove color-white">
+                                                                <img style="height: 50px" src="../img/icon/produk/produk-grab.png">
+                                                            </div>
+                                                            <div class="title poppins-medium uk-margin-remove">Grab Customer</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="tag-white" data-color="emoney">
+                                                    <a id="shopeepay" class="uk-padding-remove uk-margin-remove">
+                                                        <div class="uk-card uk-border-rounded uk-card-default uk-card-body uk-padding-small uk-padding-remove-horizontal">
+                                                            <div class="icon uk-width-1-1 uk-border-rounded uk-padding-small uk-margin-remove color-white">
+                                                                <img style="height: 50px" src="../img/icon/produk/produk-shopee-pay.png">
+                                                            </div>
+                                                            <div class="title poppins-medium uk-margin-remove">ShopeePay</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="tag-white" data-color="emoney">
+                                                    <a id="dana" class="uk-padding-remove uk-margin-remove">
+                                                        <div class="uk-card uk-border-rounded uk-card-default uk-card-body uk-padding-small uk-padding-remove-horizontal">
+                                                            <div class="icon uk-width-1-1 uk-border-rounded uk-padding-small uk-margin-remove color-white">
+                                                                <img style="height: 50px" src="../img/icon/produk/produk-dana.png">
+                                                            </div>
+                                                            <div class="title poppins-medium uk-margin-remove">Dana</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="tag-white" data-color="emoney">
+                                                    <a id="link_aja" class="uk-padding-remove uk-margin-remove">
+                                                        <div class="uk-card uk-border-rounded uk-card-default uk-card-body uk-padding-small uk-padding-remove-horizontal">
+                                                            <div class="icon uk-width-1-1 uk-border-rounded uk-padding-small uk-margin-remove color-white">
+                                                                <img style="height: 50px" src="../img/icon/produk/produk-link-aja.png">
+                                                            </div>
+                                                            <div class="title poppins-medium uk-margin-remove">Link Aja!</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="tag-white" data-color="pembayaran">
+                                                    <a id="telkom" class="uk-padding-remove uk-margin-remove">
+                                                        <div class="uk-card uk-border-rounded uk-card-default uk-card-body uk-padding-small uk-padding-remove-horizontal">
+                                                            <div class="icon uk-width-1-1 uk-border-rounded uk-padding-small uk-margin-remove color-white">
+                                                                <img style="height: 50px" src="../img/icon/produk/produk-telkom.png">
+                                                            </div>
+                                                            <div class="title poppins-medium uk-margin-remove">Telkom</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="tag-white" data-color="pembayaran">
+                                                    <a id="asuransi" class="uk-padding-remove uk-margin-remove">
+                                                        <div class="uk-card uk-border-rounded uk-card-default uk-card-body uk-padding-small uk-padding-remove-horizontal">
+                                                            <div class="icon uk-width-1-1 uk-border-rounded uk-padding-small uk-margin-remove color-white">
+                                                                <img style="height: 50px" src="../img/icon/produk/produk-asuransi.png">
+                                                            </div>
+                                                            <div class="title poppins-medium uk-margin-remove">Asuransi</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="tag-white" data-color="pembayaran">
+                                                    <a id="pdam" class="uk-padding-remove uk-margin-remove">
+                                                        <div class="uk-card uk-border-rounded uk-card-default uk-card-body uk-padding-small uk-padding-remove-horizontal">
+                                                            <div class="icon uk-width-1-1 uk-border-rounded uk-padding-small uk-margin-remove color-white">
+                                                                <img style="height: 50px" src="../img/icon/produk/produk-pdam.png">
+                                                            </div>
+                                                            <div class="title poppins-medium uk-margin-remove">PDAM</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="tag-white" data-color="pembayaran">
+                                                    <a id="etool" class="uk-padding-remove uk-margin-remove">
+                                                        <div class="uk-card uk-border-rounded uk-card-default uk-card-body uk-padding-small uk-padding-remove-horizontal">
+                                                            <div class="icon uk-width-1-1 uk-border-rounded uk-padding-small uk-margin-remove color-white">
+                                                                <img style="height: 50px" src="../img/icon/produk/produk-etool.png">
+                                                            </div>
+                                                            <div class="title poppins-medium uk-margin-remove">E-Tool</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="tag-white" data-color="emoney">
+                                                    <a id="ovo" class="uk-padding-remove uk-margin-remove">
+                                                        <div class="uk-card uk-border-rounded uk-card-default uk-card-body uk-padding-small uk-padding-remove-horizontal">
+                                                            <div class="icon uk-width-1-1 uk-border-rounded uk-padding-small uk-margin-remove color-white">
+                                                                <img style="height: 50px" src="../img/icon/produk/produk-ovo.png">
+                                                            </div>
+                                                            <div class="title poppins-medium uk-margin-remove">OVO</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="tag-white" data-color="pembayaran">
+                                                    <a href="#" class="uk-padding-remove uk-margin-remove">
+                                                        <div class="uk-card uk-border-rounded uk-card-default uk-card-body uk-padding-small uk-padding-remove-horizontal">
+                                                            <div class="icon uk-width-1-1 uk-border-rounded uk-padding-small uk-margin-remove color-white">
+                                                                <img style="height: 50px" src="../img/icon/produk/produk-pln.png">
+                                                            </div>
+                                                            <div class="title poppins-medium uk-margin-remove">PLN</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="tag-white" data-color="spesial">
+                                                    <a href="#" class="uk-padding-remove uk-margin-remove">
+                                                        <div class="uk-card uk-border-rounded uk-card-default uk-card-body uk-padding-small uk-padding-remove-horizontal">
+                                                            <div class="icon uk-width-1-1 uk-border-rounded uk-padding-small uk-margin-remove color-white">
+                                                                <img style="height: 50px" src="../img/icon/produk/produk-spesial.png">
+                                                            </div>
+                                                            <div class="title poppins-medium uk-margin-remove">Produk Spesial 1</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="tag-white" data-color="spesial">
+                                                    <a href="#" class="uk-padding-remove uk-margin-remove">
+                                                        <div class="uk-card uk-border-rounded uk-card-default uk-card-body uk-padding-small uk-padding-remove-horizontal">
+                                                            <div class="icon uk-width-1-1 uk-border-rounded uk-padding-small uk-margin-remove color-white">
+                                                                <img style="height: 50px" src="../img/icon/produk/produk-spesial.png">
+                                                            </div>
+                                                            <div class="title poppins-medium uk-margin-remove">Produk Spesial 2</div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="uk-width-1-1 form_pulsa uk-padding uk-padding-remove-horizontal" id="form_pulsa">
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove"><a  class="form_close"><span class="iconify" data-icon="carbon:close" data-inline="false"></span></a></div>
+                                                <h4 class="roboto-bold">Pulsa All Operator</h4>
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                                    <form class="uk-grid-small" uk-grid>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pilih Operator</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Operator --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nomor/No. Tujuan <span class="" uk-tooltip="title: Harapak Masukan Nomer Dengan Benar, Tidak Ada Pengembalian Dana Untuk Kesalahan Pengguna Yang Pesanannya Sudah Terlajur Di Pesan.; pos: bottom-left"><span class="iconify" data-icon="ant-design:question-circle-filled" data-inline="false"></span></span></label>
+                                                                <div class="uk-form-controls">
+                                                                    <input class="uk-input uk-border-rounded" id="form-stacked-text" type="numbers" placeholder="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nominal Pulsa</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Nominal --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Total Harga</label>
+                                                                <div class="uk-form-controls uk-width-1-1">
+                                                                    <div class="uk-inline uk-width-1-1 uk-border-rounded">
+                                                                        <span class="uk-form-icon">Rp.</span>
+                                                                        <input class="uk-input uk-border-rounded" readonly type="text">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pin</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <div class="uk-inline uk-width-1-1">
+                                                                            <span class="uk-form-icon" uk-icon="icon: unlock"></span>
+                                                                            <input class="uk-input uk-width-1-1 uk-border-rounded" type="text" placeholder="123141">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1">
+                                                            <div class="uk-margin">
+                                                                <div class="uk-form-controls">
+                                                                    <input type="submit" class="uk-button uk-button-primary uk-border-rounded" value="Beli">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-1-1  uk-padding uk-padding-remove-horizontal" id="form_paket_data">
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove"><a  class="form_close"><span class="iconify" data-icon="carbon:close" data-inline="false"></span></a></div>
+                                                <h4 class="roboto-bold">Paket Data</h4>
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                                    <form class="uk-grid-small" uk-grid>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pilih Operator</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Operator --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nomor/No. Tujuan <span class=""
+                                                                        uk-tooltip="title: Harapak Masukan Nomer Dengan Benar, Tidak Ada Pengembalian Dana Untuk Kesalahan Pengguna Yang Pesanannya Sudah Terlajur Di Pesan.; pos: bottom-left"><span
+                                                                            class="iconify" data-icon="ant-design:question-circle-filled"
+                                                                            data-inline="false"></span></span></label>
+                                                                <div class="uk-form-controls">
+                                                                    <input class="uk-input uk-border-rounded" id="form-stacked-text" type="numbers" placeholder="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nominal Pulsa</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Nominal --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Total Harga</label>
+                                                                <div class="uk-form-controls uk-width-1-1">
+                                                                    <div class="uk-inline uk-width-1-1 uk-border-rounded">
+                                                                        <span class="uk-form-icon">Rp.</span>
+                                                                        <input class="uk-input uk-border-rounded" readonly type="text">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pin</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <div class="uk-inline uk-width-1-1">
+                                                                            <span class="uk-form-icon" uk-icon="icon: unlock"></span>
+                                                                            <input class="uk-input uk-width-1-1 uk-border-rounded" type="text" placeholder="123141">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1">
+                                                            <div class="uk-margin">
+                                                                <div class="uk-form-controls">
+                                                                    <input type="submit" class="uk-button uk-button-primary uk-border-rounded" value="Beli">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-1-1  uk-padding uk-padding-remove-horizontal" id="form_voucher_game">
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove"><a  class="form_close"><span class="iconify" data-icon="carbon:close" data-inline="false"></span></a></div>
+                                                <h4 class="roboto-bold">Voucher Game</h4>
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                                    <form class="uk-grid-small" uk-grid>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pilih Operator</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Operator --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nomor/No. Tujuan <span class=""
+                                                                        uk-tooltip="title: Harapak Masukan Nomer Dengan Benar, Tidak Ada Pengembalian Dana Untuk Kesalahan Pengguna Yang Pesanannya Sudah Terlajur Di Pesan.; pos: bottom-left"><span
+                                                                            class="iconify" data-icon="ant-design:question-circle-filled"
+                                                                            data-inline="false"></span></span></label>
+                                                                <div class="uk-form-controls">
+                                                                    <input class="uk-input uk-border-rounded" id="form-stacked-text" type="numbers" placeholder="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nominal Pulsa</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Nominal --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Total Harga</label>
+                                                                <div class="uk-form-controls uk-width-1-1">
+                                                                    <div class="uk-inline uk-width-1-1 uk-border-rounded">
+                                                                        <span class="uk-form-icon">Rp.</span>
+                                                                        <input class="uk-input uk-border-rounded" readonly type="text">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pin</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <div class="uk-inline uk-width-1-1">
+                                                                            <span class="uk-form-icon" uk-icon="icon: unlock"></span>
+                                                                            <input class="uk-input uk-width-1-1 uk-border-rounded" type="text" placeholder="123141">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1">
+                                                            <div class="uk-margin">
+                                                                <div class="uk-form-controls">
+                                                                    <input type="submit" class="uk-button uk-button-primary uk-border-rounded" value="Beli">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-1-1  uk-padding uk-padding-remove-horizontal" id="form_steam_wallet">
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove"><a  class="form_close"><span class="iconify" data-icon="carbon:close" data-inline="false"></span></a></div>
+                                                <h4 class="roboto-bold">Steam Wallet</h4>
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                                    <form class="uk-grid-small" uk-grid>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pilih Operator</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Operator --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nomor/No. Tujuan <span class=""
+                                                                        uk-tooltip="title: Harapak Masukan Nomer Dengan Benar, Tidak Ada Pengembalian Dana Untuk Kesalahan Pengguna Yang Pesanannya Sudah Terlajur Di Pesan.; pos: bottom-left"><span
+                                                                            class="iconify" data-icon="ant-design:question-circle-filled"
+                                                                            data-inline="false"></span></span></label>
+                                                                <div class="uk-form-controls">
+                                                                    <input class="uk-input uk-border-rounded" id="form-stacked-text" type="numbers" placeholder="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nominal Pulsa</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Nominal --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Total Harga</label>
+                                                                <div class="uk-form-controls uk-width-1-1">
+                                                                    <div class="uk-inline uk-width-1-1 uk-border-rounded">
+                                                                        <span class="uk-form-icon">Rp.</span>
+                                                                        <input class="uk-input uk-border-rounded" readonly type="text">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pin</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <div class="uk-inline uk-width-1-1">
+                                                                            <span class="uk-form-icon" uk-icon="icon: unlock"></span>
+                                                                            <input class="uk-input uk-width-1-1 uk-border-rounded" type="text" placeholder="123141">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1">
+                                                            <div class="uk-margin">
+                                                                <div class="uk-form-controls">
+                                                                    <input type="submit" class="uk-button uk-button-primary uk-border-rounded" value="Beli">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-1-1  uk-padding uk-padding-remove-horizontal" id="form_itunes">
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove"><a  class="form_close"><span class="iconify" data-icon="carbon:close" data-inline="false"></span></a></div>
+                                                <h4 class="roboto-bold">Itunes</h4>
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                                    <form class="uk-grid-small" uk-grid>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pilih Operator</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Operator --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nomor/No. Tujuan <span class=""
+                                                                        uk-tooltip="title: Harapak Masukan Nomer Dengan Benar, Tidak Ada Pengembalian Dana Untuk Kesalahan Pengguna Yang Pesanannya Sudah Terlajur Di Pesan.; pos: bottom-left"><span
+                                                                            class="iconify" data-icon="ant-design:question-circle-filled"
+                                                                            data-inline="false"></span></span></label>
+                                                                <div class="uk-form-controls">
+                                                                    <input class="uk-input uk-border-rounded" id="form-stacked-text" type="numbers" placeholder="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nominal Pulsa</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Nominal --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Total Harga</label>
+                                                                <div class="uk-form-controls uk-width-1-1">
+                                                                    <div class="uk-inline uk-width-1-1 uk-border-rounded">
+                                                                        <span class="uk-form-icon">Rp.</span>
+                                                                        <input class="uk-input uk-border-rounded" readonly type="text">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pin</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <div class="uk-inline uk-width-1-1">
+                                                                            <span class="uk-form-icon" uk-icon="icon: unlock"></span>
+                                                                            <input class="uk-input uk-width-1-1 uk-border-rounded" type="text" placeholder="123141">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1">
+                                                            <div class="uk-margin">
+                                                                <div class="uk-form-controls">
+                                                                    <input type="submit" class="uk-button uk-button-primary uk-border-rounded" value="Beli">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-1-1  uk-padding uk-padding-remove-horizontal" id="form_tix_id">
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove"><a  class="form_close"><span class="iconify" data-icon="carbon:close" data-inline="false"></span></a></div>
+                                                <h4 class="roboto-bold">TIX ID</h4>
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                                    <form class="uk-grid-small" uk-grid>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pilih Operator</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Operator --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nomor/No. Tujuan <span class=""
+                                                                        uk-tooltip="title: Harapak Masukan Nomer Dengan Benar, Tidak Ada Pengembalian Dana Untuk Kesalahan Pengguna Yang Pesanannya Sudah Terlajur Di Pesan.; pos: bottom-left"><span
+                                                                            class="iconify" data-icon="ant-design:question-circle-filled"
+                                                                            data-inline="false"></span></span></label>
+                                                                <div class="uk-form-controls">
+                                                                    <input class="uk-input uk-border-rounded" id="form-stacked-text" type="numbers" placeholder="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nominal Pulsa</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Nominal --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Total Harga</label>
+                                                                <div class="uk-form-controls uk-width-1-1">
+                                                                    <div class="uk-inline uk-width-1-1 uk-border-rounded">
+                                                                        <span class="uk-form-icon">Rp.</span>
+                                                                        <input class="uk-input uk-border-rounded" readonly type="text">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pin</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <div class="uk-inline uk-width-1-1">
+                                                                            <span class="uk-form-icon" uk-icon="icon: unlock"></span>
+                                                                            <input class="uk-input uk-width-1-1 uk-border-rounded" type="text" placeholder="123141">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1">
+                                                            <div class="uk-margin">
+                                                                <div class="uk-form-controls">
+                                                                    <input type="submit" class="uk-button uk-button-primary uk-border-rounded" value="Beli">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-1-1  uk-padding uk-padding-remove-horizontal" id="form_gojek_customer">
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove"><a  class="form_close"><span class="iconify" data-icon="carbon:close" data-inline="false"></span></a></div>
+                                                <h4 class="roboto-bold">Gojek Customer</h4>
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                                    <form class="uk-grid-small" uk-grid>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pilih Operator</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Operator --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nomor/No. Tujuan <span class=""
+                                                                        uk-tooltip="title: Harapak Masukan Nomer Dengan Benar, Tidak Ada Pengembalian Dana Untuk Kesalahan Pengguna Yang Pesanannya Sudah Terlajur Di Pesan.; pos: bottom-left"><span
+                                                                            class="iconify" data-icon="ant-design:question-circle-filled"
+                                                                            data-inline="false"></span></span></label>
+                                                                <div class="uk-form-controls">
+                                                                    <input class="uk-input uk-border-rounded" id="form-stacked-text" type="numbers" placeholder="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nominal Pulsa</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Nominal --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Total Harga</label>
+                                                                <div class="uk-form-controls uk-width-1-1">
+                                                                    <div class="uk-inline uk-width-1-1 uk-border-rounded">
+                                                                        <span class="uk-form-icon">Rp.</span>
+                                                                        <input class="uk-input uk-border-rounded" readonly type="text">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pin</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <div class="uk-inline uk-width-1-1">
+                                                                            <span class="uk-form-icon" uk-icon="icon: unlock"></span>
+                                                                            <input class="uk-input uk-width-1-1 uk-border-rounded" type="text" placeholder="123141">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1">
+                                                            <div class="uk-margin">
+                                                                <div class="uk-form-controls">
+                                                                    <input type="submit" class="uk-button uk-button-primary uk-border-rounded" value="Beli">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-1-1  uk-padding uk-padding-remove-horizontal" id="form_gojek_driver">
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove"><a  class="form_close"><span class="iconify" data-icon="carbon:close" data-inline="false"></span></a></div>
+                                                <h4 class="roboto-bold">Gojek Driver</h4>
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                                    <form class="uk-grid-small" uk-grid>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pilih Operator</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Operator --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nomor/No. Tujuan <span class=""
+                                                                        uk-tooltip="title: Harapak Masukan Nomer Dengan Benar, Tidak Ada Pengembalian Dana Untuk Kesalahan Pengguna Yang Pesanannya Sudah Terlajur Di Pesan.; pos: bottom-left"><span
+                                                                            class="iconify" data-icon="ant-design:question-circle-filled"
+                                                                            data-inline="false"></span></span></label>
+                                                                <div class="uk-form-controls">
+                                                                    <input class="uk-input uk-border-rounded" id="form-stacked-text" type="numbers" placeholder="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nominal Pulsa</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Nominal --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Total Harga</label>
+                                                                <div class="uk-form-controls uk-width-1-1">
+                                                                    <div class="uk-inline uk-width-1-1 uk-border-rounded">
+                                                                        <span class="uk-form-icon">Rp.</span>
+                                                                        <input class="uk-input uk-border-rounded" readonly type="text">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pin</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <div class="uk-inline uk-width-1-1">
+                                                                            <span class="uk-form-icon" uk-icon="icon: unlock"></span>
+                                                                            <input class="uk-input uk-width-1-1 uk-border-rounded" type="text" placeholder="123141">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1">
+                                                            <div class="uk-margin">
+                                                                <div class="uk-form-controls">
+                                                                    <input type="submit" class="uk-button uk-button-primary uk-border-rounded" value="Beli">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-1-1  uk-padding uk-padding-remove-horizontal" id="form_grab_customer">
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove"><a  class="form_close"><span class="iconify" data-icon="carbon:close" data-inline="false"></span></a></div>
+                                                <h4 class="roboto-bold">Grab Customer</h4>
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                                    <form class="uk-grid-small" uk-grid>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pilih Operator</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Operator --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nomor/No. Tujuan <span class=""
+                                                                        uk-tooltip="title: Harapak Masukan Nomer Dengan Benar, Tidak Ada Pengembalian Dana Untuk Kesalahan Pengguna Yang Pesanannya Sudah Terlajur Di Pesan.; pos: bottom-left"><span
+                                                                            class="iconify" data-icon="ant-design:question-circle-filled"
+                                                                            data-inline="false"></span></span></label>
+                                                                <div class="uk-form-controls">
+                                                                    <input class="uk-input uk-border-rounded" id="form-stacked-text" type="numbers" placeholder="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nominal Pulsa</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Nominal --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Total Harga</label>
+                                                                <div class="uk-form-controls uk-width-1-1">
+                                                                    <div class="uk-inline uk-width-1-1 uk-border-rounded">
+                                                                        <span class="uk-form-icon">Rp.</span>
+                                                                        <input class="uk-input uk-border-rounded" readonly type="text">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pin</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <div class="uk-inline uk-width-1-1">
+                                                                            <span class="uk-form-icon" uk-icon="icon: unlock"></span>
+                                                                            <input class="uk-input uk-width-1-1 uk-border-rounded" type="text" placeholder="123141">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1">
+                                                            <div class="uk-margin">
+                                                                <div class="uk-form-controls">
+                                                                    <input type="submit" class="uk-button uk-button-primary uk-border-rounded" value="Beli">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-1-1  uk-padding uk-padding-remove-horizontal" id="form_shopeepay">
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove"><a  class="form_close"><span class="iconify" data-icon="carbon:close" data-inline="false"></span></a></div>
+                                                <h4 class="roboto-bold">ShopeePay</h4>
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                                    <form class="uk-grid-small" uk-grid>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pilih Operator</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Operator --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nomor/No. Tujuan <span class=""
+                                                                        uk-tooltip="title: Harapak Masukan Nomer Dengan Benar, Tidak Ada Pengembalian Dana Untuk Kesalahan Pengguna Yang Pesanannya Sudah Terlajur Di Pesan.; pos: bottom-left"><span
+                                                                            class="iconify" data-icon="ant-design:question-circle-filled"
+                                                                            data-inline="false"></span></span></label>
+                                                                <div class="uk-form-controls">
+                                                                    <input class="uk-input uk-border-rounded" id="form-stacked-text" type="numbers" placeholder="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nominal Pulsa</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Nominal --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Total Harga</label>
+                                                                <div class="uk-form-controls uk-width-1-1">
+                                                                    <div class="uk-inline uk-width-1-1 uk-border-rounded">
+                                                                        <span class="uk-form-icon">Rp.</span>
+                                                                        <input class="uk-input uk-border-rounded" readonly type="text">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pin</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <div class="uk-inline uk-width-1-1">
+                                                                            <span class="uk-form-icon" uk-icon="icon: unlock"></span>
+                                                                            <input class="uk-input uk-width-1-1 uk-border-rounded" type="text" placeholder="123141">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1">
+                                                            <div class="uk-margin">
+                                                                <div class="uk-form-controls">
+                                                                    <input type="submit" class="uk-button uk-button-primary uk-border-rounded" value="Beli">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-1-1  uk-padding uk-padding-remove-horizontal" id="form_dana">
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove"><a  class="form_close"><span class="iconify" data-icon="carbon:close" data-inline="false"></span></a></div>
+                                                <h4 class="roboto-bold">Dana</h4>
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                                    <form class="uk-grid-small" uk-grid>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pilih Operator</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Operator --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nomor/No. Tujuan <span class=""
+                                                                        uk-tooltip="title: Harapak Masukan Nomer Dengan Benar, Tidak Ada Pengembalian Dana Untuk Kesalahan Pengguna Yang Pesanannya Sudah Terlajur Di Pesan.; pos: bottom-left"><span
+                                                                            class="iconify" data-icon="ant-design:question-circle-filled"
+                                                                            data-inline="false"></span></span></label>
+                                                                <div class="uk-form-controls">
+                                                                    <input class="uk-input uk-border-rounded" id="form-stacked-text" type="numbers" placeholder="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nominal Pulsa</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Nominal --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Total Harga</label>
+                                                                <div class="uk-form-controls uk-width-1-1">
+                                                                    <div class="uk-inline uk-width-1-1 uk-border-rounded">
+                                                                        <span class="uk-form-icon">Rp.</span>
+                                                                        <input class="uk-input uk-border-rounded" readonly type="text">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pin</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <div class="uk-inline uk-width-1-1">
+                                                                            <span class="uk-form-icon" uk-icon="icon: unlock"></span>
+                                                                            <input class="uk-input uk-width-1-1 uk-border-rounded" type="text" placeholder="123141">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1">
+                                                            <div class="uk-margin">
+                                                                <div class="uk-form-controls">
+                                                                    <input type="submit" class="uk-button uk-button-primary uk-border-rounded" value="Beli">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-1-1  uk-padding uk-padding-remove-horizontal" id="form_link_aja">
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove"><a  class="form_close"><span class="iconify" data-icon="carbon:close" data-inline="false"></span></a></div>
+                                                <h4 class="roboto-bold">Link Aja</h4>
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                                    <form class="uk-grid-small" uk-grid>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pilih Operator</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Operator --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nomor/No. Tujuan <span class=""
+                                                                        uk-tooltip="title: Harapak Masukan Nomer Dengan Benar, Tidak Ada Pengembalian Dana Untuk Kesalahan Pengguna Yang Pesanannya Sudah Terlajur Di Pesan.; pos: bottom-left"><span
+                                                                            class="iconify" data-icon="ant-design:question-circle-filled"
+                                                                            data-inline="false"></span></span></label>
+                                                                <div class="uk-form-controls">
+                                                                    <input class="uk-input uk-border-rounded" id="form-stacked-text" type="numbers" placeholder="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nominal Pulsa</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Nominal --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Total Harga</label>
+                                                                <div class="uk-form-controls uk-width-1-1">
+                                                                    <div class="uk-inline uk-width-1-1 uk-border-rounded">
+                                                                        <span class="uk-form-icon">Rp.</span>
+                                                                        <input class="uk-input uk-border-rounded" readonly type="text">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pin</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <div class="uk-inline uk-width-1-1">
+                                                                            <span class="uk-form-icon" uk-icon="icon: unlock"></span>
+                                                                            <input class="uk-input uk-width-1-1 uk-border-rounded" type="text" placeholder="123141">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1">
+                                                            <div class="uk-margin">
+                                                                <div class="uk-form-controls">
+                                                                    <input type="submit" class="uk-button uk-button-primary uk-border-rounded" value="Beli">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-1-1  uk-padding uk-padding-remove-horizontal" id="form_telkom">
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove"><a  class="form_close"><span class="iconify" data-icon="carbon:close" data-inline="false"></span></a></div>
+                                                <h4 class="roboto-bold">Telkom</h4>
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                                    <form class="uk-grid-small" uk-grid>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pilih Operator</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Operator --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nomor/No. Tujuan <span class=""
+                                                                        uk-tooltip="title: Harapak Masukan Nomer Dengan Benar, Tidak Ada Pengembalian Dana Untuk Kesalahan Pengguna Yang Pesanannya Sudah Terlajur Di Pesan.; pos: bottom-left"><span
+                                                                            class="iconify" data-icon="ant-design:question-circle-filled"
+                                                                            data-inline="false"></span></span></label>
+                                                                <div class="uk-form-controls">
+                                                                    <input class="uk-input uk-border-rounded" id="form-stacked-text" type="numbers" placeholder="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nominal Pulsa</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Nominal --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Total Harga</label>
+                                                                <div class="uk-form-controls uk-width-1-1">
+                                                                    <div class="uk-inline uk-width-1-1 uk-border-rounded">
+                                                                        <span class="uk-form-icon">Rp.</span>
+                                                                        <input class="uk-input uk-border-rounded" readonly type="text">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pin</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <div class="uk-inline uk-width-1-1">
+                                                                            <span class="uk-form-icon" uk-icon="icon: unlock"></span>
+                                                                            <input class="uk-input uk-width-1-1 uk-border-rounded" type="text" placeholder="123141">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1">
+                                                            <div class="uk-margin">
+                                                                <div class="uk-form-controls">
+                                                                    <input type="submit" class="uk-button uk-button-primary uk-border-rounded" value="Beli">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-1-1  uk-padding uk-padding-remove-horizontal" id="form_asuransi">
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove"><a  class="form_close"><span class="iconify" data-icon="carbon:close" data-inline="false"></span></a></div>
+                                                <h4 class="roboto-bold">Asuransi</h4>
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                                    <form class="uk-grid-small" uk-grid>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pilih Operator</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Operator --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nomor/No. Tujuan <span class=""
+                                                                        uk-tooltip="title: Harapak Masukan Nomer Dengan Benar, Tidak Ada Pengembalian Dana Untuk Kesalahan Pengguna Yang Pesanannya Sudah Terlajur Di Pesan.; pos: bottom-left"><span
+                                                                            class="iconify" data-icon="ant-design:question-circle-filled"
+                                                                            data-inline="false"></span></span></label>
+                                                                <div class="uk-form-controls">
+                                                                    <input class="uk-input uk-border-rounded" id="form-stacked-text" type="numbers" placeholder="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nominal Pulsa</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Nominal --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Total Harga</label>
+                                                                <div class="uk-form-controls uk-width-1-1">
+                                                                    <div class="uk-inline uk-width-1-1 uk-border-rounded">
+                                                                        <span class="uk-form-icon">Rp.</span>
+                                                                        <input class="uk-input uk-border-rounded" readonly type="text">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pin</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <div class="uk-inline uk-width-1-1">
+                                                                            <span class="uk-form-icon" uk-icon="icon: unlock"></span>
+                                                                            <input class="uk-input uk-width-1-1 uk-border-rounded" type="text" placeholder="123141">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1">
+                                                            <div class="uk-margin">
+                                                                <div class="uk-form-controls">
+                                                                    <input type="submit" class="uk-button uk-button-primary uk-border-rounded" value="Beli">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-1-1  uk-padding uk-padding-remove-horizontal" id="form_pdam">
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove"><a  class="form_close"><span class="iconify" data-icon="carbon:close" data-inline="false"></span></a></div>
+                                                <h4 class="roboto-bold">PDAM</h4>
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                                    <form class="uk-grid-small" uk-grid>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pilih Operator</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Operator --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nomor/No. Tujuan <span class=""
+                                                                        uk-tooltip="title: Harapak Masukan Nomer Dengan Benar, Tidak Ada Pengembalian Dana Untuk Kesalahan Pengguna Yang Pesanannya Sudah Terlajur Di Pesan.; pos: bottom-left"><span
+                                                                            class="iconify" data-icon="ant-design:question-circle-filled"
+                                                                            data-inline="false"></span></span></label>
+                                                                <div class="uk-form-controls">
+                                                                    <input class="uk-input uk-border-rounded" id="form-stacked-text" type="numbers" placeholder="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nominal Pulsa</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Nominal --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Total Harga</label>
+                                                                <div class="uk-form-controls uk-width-1-1">
+                                                                    <div class="uk-inline uk-width-1-1 uk-border-rounded">
+                                                                        <span class="uk-form-icon">Rp.</span>
+                                                                        <input class="uk-input uk-border-rounded" readonly type="text">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pin</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <div class="uk-inline uk-width-1-1">
+                                                                            <span class="uk-form-icon" uk-icon="icon: unlock"></span>
+                                                                            <input class="uk-input uk-width-1-1 uk-border-rounded" type="text" placeholder="123141">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1">
+                                                            <div class="uk-margin">
+                                                                <div class="uk-form-controls">
+                                                                    <input type="submit" class="uk-button uk-button-primary uk-border-rounded" value="Beli">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-1-1  uk-padding uk-padding-remove-horizontal" id="form_etool">
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove"><a  class="form_close"><span class="iconify" data-icon="carbon:close" data-inline="false"></span></a></div>
+                                                <h4 class="roboto-bold">E-Tool</h4>
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                                    <form class="uk-grid-small" uk-grid>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pilih Operator</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Operator --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nomor/No. Tujuan <span class=""
+                                                                        uk-tooltip="title: Harapak Masukan Nomer Dengan Benar, Tidak Ada Pengembalian Dana Untuk Kesalahan Pengguna Yang Pesanannya Sudah Terlajur Di Pesan.; pos: bottom-left"><span
+                                                                            class="iconify" data-icon="ant-design:question-circle-filled"
+                                                                            data-inline="false"></span></span></label>
+                                                                <div class="uk-form-controls">
+                                                                    <input class="uk-input uk-border-rounded" id="form-stacked-text" type="numbers" placeholder="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nominal Pulsa</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Nominal --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Total Harga</label>
+                                                                <div class="uk-form-controls uk-width-1-1">
+                                                                    <div class="uk-inline uk-width-1-1 uk-border-rounded">
+                                                                        <span class="uk-form-icon">Rp.</span>
+                                                                        <input class="uk-input uk-border-rounded" readonly type="text">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pin</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <div class="uk-inline uk-width-1-1">
+                                                                            <span class="uk-form-icon" uk-icon="icon: unlock"></span>
+                                                                            <input class="uk-input uk-width-1-1 uk-border-rounded" type="text" placeholder="123141">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1">
+                                                            <div class="uk-margin">
+                                                                <div class="uk-form-controls">
+                                                                    <input type="submit" class="uk-button uk-button-primary uk-border-rounded" value="Beli">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-1-1  uk-padding uk-padding-remove-horizontal" id="form_ovo">
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove"><a  class="form_close"><span class="iconify" data-icon="carbon:close" data-inline="false"></span></a></div>
+                                                <h4 class="roboto-bold">OVO</h4>
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                                    <form class="uk-grid-small" uk-grid>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pilih Operator</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Operator --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nomor/No. Tujuan <span class=""
+                                                                        uk-tooltip="title: Harapak Masukan Nomer Dengan Benar, Tidak Ada Pengembalian Dana Untuk Kesalahan Pengguna Yang Pesanannya Sudah Terlajur Di Pesan.; pos: bottom-left"><span
+                                                                            class="iconify" data-icon="ant-design:question-circle-filled"
+                                                                            data-inline="false"></span></span></label>
+                                                                <div class="uk-form-controls">
+                                                                    <input class="uk-input uk-border-rounded" id="form-stacked-text" type="numbers" placeholder="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nominal Pulsa</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Nominal --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Total Harga</label>
+                                                                <div class="uk-form-controls uk-width-1-1">
+                                                                    <div class="uk-inline uk-width-1-1 uk-border-rounded">
+                                                                        <span class="uk-form-icon">Rp.</span>
+                                                                        <input class="uk-input uk-border-rounded" readonly type="text">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pin</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <div class="uk-inline uk-width-1-1">
+                                                                            <span class="uk-form-icon" uk-icon="icon: unlock"></span>
+                                                                            <input class="uk-input uk-width-1-1 uk-border-rounded" type="text" placeholder="123141">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1">
+                                                            <div class="uk-margin">
+                                                                <div class="uk-form-controls">
+                                                                    <input type="submit" class="uk-button uk-button-primary uk-border-rounded" value="Beli">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="uk-width-1-1  uk-padding uk-padding-remove-horizontal" id="form_pln">
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove"><a  class="form_close"><span class="iconify" data-icon="carbon:close" data-inline="false"></span></a></div>
+                                                <h4 class="roboto-bold">PLN</h4>
+                                                <div class="uk-width-1-1 uk-padding-remove uk-margin-remove">
+                                                    <form class="uk-grid-small" uk-grid>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pilih Operator</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Operator --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nomor/No. Tujuan <span class=""
+                                                                        uk-tooltip="title: Harapak Masukan Nomer Dengan Benar, Tidak Ada Pengembalian Dana Untuk Kesalahan Pengguna Yang Pesanannya Sudah Terlajur Di Pesan.; pos: bottom-left"><span
+                                                                            class="iconify" data-icon="ant-design:question-circle-filled"
+                                                                            data-inline="false"></span></span></label>
+                                                                <div class="uk-form-controls">
+                                                                    <input class="uk-input uk-border-rounded" id="form-stacked-text" type="numbers" placeholder="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Nominal Pulsa</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <select class="uk-select">
+                                                                            <option selected>-- Pilih Nominal --</option>
+                                                                            <option>Option 01</option>
+                                                                            <option>Option 02</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Total Harga</label>
+                                                                <div class="uk-form-controls uk-width-1-1">
+                                                                    <div class="uk-inline uk-width-1-1 uk-border-rounded">
+                                                                        <span class="uk-form-icon">Rp.</span>
+                                                                        <input class="uk-input uk-border-rounded" readonly type="text">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-2@s">
+                                                            <div class="uk-margin">
+                                                                <label class="uk-form-label" for="form-stacked-text">Pin</label>
+                                                                <div class="uk-form-controls">
+                                                                    <div class="uk-margin">
+                                                                        <div class="uk-inline uk-width-1-1">
+                                                                            <span class="uk-form-icon" uk-icon="icon: unlock"></span>
+                                                                            <input class="uk-input uk-width-1-1 uk-border-rounded" type="text" placeholder="123141">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="uk-width-1-1">
+                                                            <div class="uk-margin">
+                                                                <div class="uk-form-controls">
+                                                                    <input type="submit" class="uk-button uk-button-primary uk-border-rounded" value="Beli">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer uk-width-1-1 uk-padding uk-margin-remove">
+            <div class="uk-width-1-1 uk-padding uk-padding-remove-vertical uk-margin-remove" uk-grid>
+                <div class="uk-width-1-1 uk-padding-small uk-padding-remove-vertical uk-margin-remove">
+                    <h4 class="poppins-bold uk-padding-remove uk-margin-remove">Hubungi Kami</h4>
+                    <p class="poppins-regular uk-padding-remove uk-margin-remove">
+                        Jika ada pertanyaan, Pengaduan, Kritik, dan Saran silahkan kirimkan pesan Anda melalui form di
+                        bawah
+                        ini.
+                    </p>
+                </div>
+                <div id="hubungi-kami"
+                    class="hubungi-kami uk-width-3-4@s uk-padding-small uk-padding-remove-vertical uk-margin-medium-top">
+                    <form class="uk-grid-small uk-margin-small-top uk-width-3-4@s" uk-grid>
+                        <div class="uk-width-1-2@s">
+                            <input class="uk-input poppins-regular color-white" type="text"
+                                placeholder="Masukkan Nama Anda">
+                        </div>
+                        <div class="uk-width-1-2@s">
+                            <input class="uk-input poppins-regular color-white" type="text"
+                                placeholder="Masukkan Nomor Handphone">
+                        </div>
+                        <div class="uk-width-1-2@s">
+                            <input class="uk-input poppins-regular color-white" type="text"
+                                placeholder="Masukkan Subject">
+                        </div>
+                        <div class="uk-width-1-2@s">
+                            <input class="uk-input poppins-regular color-white" type="text"
+                                placeholder="Masukkan Alamat Email">
+                        </div>
+                        <div class="uk-width-1-2@s">
+                            <input class="uk-input poppins-regular color-white" type="text"
+                                placeholder="Masukkan Alamat Email">
+                        </div>
+                        <div class="uk-width-1-2@s">
+                            <button class="uk-button uk-button-primary uk-border-rounded" type="submit">Kirim
+                                Pesan</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="alamat uk-width-1-4@s uk-padding-small uk-padding-remove-vertical uk-margin-medium-top">
+                    <div class="uk-width-1-1 uk-padding-small uk-margin-remove" uk-grid>
+                        <div class="uk-width-auto uk-padding-remove uk-margin-remove">
+                            <span class="iconify" data-icon="entypo:location-pin" data-inline="false"
+                                data-width="20"></span>
+                        </div>
+                        <div class="uk-width-expand uk-padding-remove uk-margin-small-left">
+                            <span class="head poppins-bold">Alamat</span>
+                            <p class="uk-padding-remove uk-margin-remove poppins-regular">Alamat</p>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-1 uk-padding-small uk-margin-remove" uk-grid>
+                        <div class="uk-width-auto uk-padding-remove uk-margin-remove">
+                            <span class="iconify" data-icon="carbon:email" data-inline="false" data-width="20"></span>
+                        </div>
+                        <div class="uk-width-expand uk-padding-remove uk-margin-small-left">
+                            <span class="head poppins-bold">Email</span>
+                            <p class="uk-padding-remove uk-margin-remove poppins-regular">email@email.com</p>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-1 uk-padding-small uk-margin-remove" uk-grid>
+                        <div class="uk-width-auto uk-padding-remove uk-margin-remove">
+                            <span class="iconify" data-icon="bi:telephone" data-inline="false" data-width="20"></span>
+                        </div>
+                        <div class="uk-width-expand uk-padding-remove uk-margin-small-left">
+                            <span class="head poppins-bold">Hotline Kami</span>
+                            <p class="uk-padding-remove uk-margin-remove poppins-regular">024 919827</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tentang-ppob uk-width-1-3@s uk-padding-small uk-margin-medium-top">
+                    <h5 class="color-white poppins-semi-bold">Tentang PPOB</h5>
+                    <p class="poppins-regular color-white">
+                        Sebuah Platform Bisnis Yang Menyediakan Berbagai Layanan MultI Media Marketing Yang Bergerak
+                        Terutama Di
+                        Indonesia.
+                        Kamipun Juga Menyediakan Pembelian Pulsa & PPOB Seperti Pulsa All Operator, Paket Data, Saldo
+                        Gojek/Grab, Token PLN, All
+                        Voucher Game Online, Dll.
+                    </p>
+                </div>
+                <div class="informasi uk-width-1-6@s uk-padding-small uk-margin-medium-top">
+                    <h5 class="color-white poppins-semi-bold">Informasi</h5>
+                    <ul class="uk-padding-small uk-padding-remove-vertical uk-padding-remove-right poppins-regular">
+                        <li>Cara Isi Saldo</li>
+                        <li>Cara Transaksi</li>
+                        <li>Pembayaran</li>
+                        <li>Layanan Promo</li>
+                    </ul>
+                </div>
+                <div class="kontak-admin uk-width-1-6@s uk-padding-small uk-margin-medium-top">
+                    <h5 class="color-white poppins-semi-bold">Kontak Admin</h5>
+                    <ul class="uk-padding-remove poppins-regular">
+                        <li><a href="#"><span class="iconify" data-icon="dashicons:whatsapp" data-inline="false"></span>
+                                Admin
+                                Komplain</a></li>
+                        <li><a href="#"><span class="iconify" data-icon="dashicons:whatsapp" data-inline="false"></span>
+                                Admin
+                                WEB</a></li>
+                    </ul>
+                </div>
+                <div class="sosial-media uk-width-1-6@s uk-padding-small uk-margin-medium-top">
+                    <h5 class="color-white poppins-semi-bold">Sosial Media</h5>
+                    <p class="poppins-regular color-white">
+                        <a href="#" class="twitter"><span class="iconify" data-icon="akar-icons:twitter-fill"
+                                data-inline="false" data-height="20"></span></a>
+                        <a href="#" class="gmail"><span class="iconify" data-icon="cib:gmail" data-inline="false"
+                                data-height="20"></span></a>
+                        <a href="#" class="facebook"><span class="iconify" data-icon="ant-design:facebook-filled"
+                                data-inline="false" data-height="20"></span></a>
+                        <a href="#" class="instagram"><span class="iconify" data-icon="ant-design:instagram-filled"
+                                data-inline="false" data-height="20"></span></a>
+                    </p>
+                </div>
+                <div class="uk-width-1-6@s uk-padding-small uk-margin-medium-top">
+                    <h5 class="color-white poppins-semi-bold">Berlangganan</h5>
+                    <form>
+                        <div class="uk-margin">
+                            <div class="uk-inline">
+                                <a class="uk-form-icon uk-form-icon-flip" href="#" uk-icon="icon: link"></a>
+                                <input class="uk-input" type="text">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="totop">
+        <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="arrow-up" uk-scroll></a>
+    </div>
+
+    <!-- JS -->
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

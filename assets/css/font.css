@@ -1,0 +1,235 @@
+
+.poppins-thin
+{
+    font-family: poppins !important;
+    font-weight: 100;
+}
+.poppins-extra-light
+{
+    font-family: poppins !important;
+    font-weight: 200;
+}
+.poppins-light
+{
+    font-family: poppins !important;
+    font-weight: 300;
+}
+.poppins-regular
+{
+    font-family: poppins !important;
+    font-weight: 400;
+}
+.poppins-medium
+{
+    font-family: poppins !important;
+    font-weight: 500;
+}
+.poppins-semi-bold
+{
+    font-family: poppins !important;
+    font-weight: 600;
+}
+.poppins-bold
+{
+    font-family: poppins !important;
+    font-weight: 700;
+}
+.poppins-extra-bold
+{
+    font-family: poppins !important;
+    font-weight: 800;
+}
+.poppins-black
+{
+    font-family: poppins !important;
+    font-weight: 900;
+}
+.open-sans-light
+{
+    font-family: 'open-sans', sans-serif;
+    font-weight: 300;
+}
+.open-sans-regular
+{
+    font-family: 'open-sans', sans-serif;
+    font-weight: 400;
+}
+.open-sans-semi-bold
+{
+    font-family: 'open-sans', sans-serif;
+    font-weight: 600;
+}
+.open-sans-bold
+{
+    font-family: 'open-sans', sans-serif;
+    font-weight: 700;
+}
+.open-sans-extra-bold
+{
+    font-family: 'open-sans', sans-serif;
+    font-weight: 800;
+}
+.roboto-thin
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.roboto-light
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.roboto-regular
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.roboto-medium
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.roboto-bold
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.roboto-black
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.ibm-plex-thin
+{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 100;
+}
+.ibm-plex-extra-light
+{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 200;
+}
+.ibm-plex-light
+{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+}
+.ibm-plex-regular
+{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+}
+.ibm-plex-medium
+{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+}
+.ibm-plex-semi-bold
+{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+}
+.ibm-plex-bold
+{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+}
+
+.color-black
+{
+    color: black
+}
+.color-white
+{
+    color: white;
+}
+.color-grey
+{
+    color: grey;
+}
+.background-white
+{
+    background-color: white;
+}
+.background-black
+{
+    background-color: black;
+}
+.background-aktif
+{
+    background-color: #53C935;
+    color: white;
+}
+.background-tidak-aktif
+{
+    background-color: #C93535;
+    color: white;
+}
+
+.button-success
+{
+    background-color: #53C935;
+    color: white;
+    transition: all 0.5 ease;
+}
+.button-success:hover
+{
+    background-color: #3eb81f;
+    color: white;
+}
+.button-primary
+{
+    background-color: #4065FD;
+    color: white;
+    transition: all 0.5 ease;
+}
+.button-primary:hover
+{
+    background-color: #6d8aff;
+    color: white;
+}
+.button-danger
+{
+    background-color: #F54141;
+    color: white;
+    transition: all 0.5 ease;
+}
+.button-danger:hover
+{
+    background-color: #f75656;
+    color: white;
+}
+.button-black
+{
+    background-color: black;
+    color: white;
+    border: 1px solid transparent;
+    transition: all 0.5s ease;
+}
+.button-black:hover
+{
+    background-color: white !important;
+    border: 1px solid black;
+    color: black !important;
+}
+.button-white
+{
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black;
+    transition: all 0.5s ease;
+}
+.button-white:hover
+{
+    background-color: black !important;
+    color: white !important;
+}
+
+.text-capitalize
+{
+  text-transform: capitalize !important;
+}
+.text-uppercase
+{
+    text-transform: uppercase !important;
+}

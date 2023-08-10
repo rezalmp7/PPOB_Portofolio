@@ -1,0 +1,638 @@
+body
+{
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#home .header
+{
+    height: 100vh;
+    min-height: 800px;
+}
+.header .uk-navbar-right ul li a.ppob-button-text
+{
+    color: black;
+    text-transform: capitalize;
+    transition: all 0.2s ease;
+}
+.header .uk-navbar-right ul li a.ppob-button-text:hover
+{
+    border-bottom: 4px solid #3F64FC;
+}
+.header .uk-navbar-right ul li.button-login
+{
+    display: inline !important;
+    text-align: center;
+}
+.header .uk-navbar-right ul li.button-login div
+{
+    margin: 15% 0px auto 0px;
+}
+.header .uk-navbar-right ul li.button-login div a
+{
+    border: 2px solid black;
+    color: black;
+    padding: 1px 20px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.header .uk-navbar-right ul li.button-login div a:hover
+{
+    background-color: black;
+    color: white
+}
+#home .header .bottom-bar-header .report>div
+{
+    color: #3F64FC;
+    font-size: 12px;
+}
+#home .header .bottom-bar-header .report>div .head
+{
+    font-size: 18px;
+}
+#home .header .bottom-bar-header a
+{
+    font-size: 12px;
+}
+
+#home .body .langkah-transaksi h4
+{
+    font-size: 24px;
+}
+#home .body .langkah-transaksi .uk-card
+{
+    background-position: right 50px;
+    transition: all 0.5s ease;
+}
+#home .body .langkah-transaksi .uk-card:hover
+{
+    background-color: #4065FD;
+}
+#home .body .langkah-transaksi .uk-card:hover .uk-card-title
+{
+    color: white;
+}
+#home .body .langkah-transaksi .uk-card:hover p
+{
+    color: white;
+}
+#home .body .langkah-transaksi .uk-card .uk-card-title
+{
+    font-size: 16px;
+}
+#home .body .langkah-transaksi .uk-card p
+{
+    font-size: 14px;
+}
+#home .body .langkah-transaksi .uk-card img
+{
+    height: 30px;
+}
+#home .body .langkah-transaksi .uk-card .bg-icon
+{
+    width: 35px;
+    height: 35px;
+    background-color: rgba(250, 250, 250, 0.5);
+}
+#home .body .promo .uk-card h2
+{
+    font-size: 50px;
+}
+#home .body .promo .uk-card p
+{
+    color: white;
+    font-size: 20px;
+}
+#home .body .promo .uk-card .primary
+{
+    color: #F99C2D;
+}
+#home .body .pembayaran h4
+{
+    font-size: 20px;
+    color: grey;
+}
+#home .body .pembayaran img
+{
+    height: 35px;
+    margin: 10px 10px;
+}
+
+
+#blog .uk-slider
+{
+    overflow: hidden;
+}
+#blog .body .head
+{
+    border-bottom: 1px solid #2A4DDD;
+}
+#blog .body .populer
+{
+    border-left: 1px solid rgba(0, 0, 0, 0.5);
+}
+#blog .body .news .article .uk-card-media-top
+{
+    overflow: hidden;
+}
+#blog .body .news .article .img
+{
+    transition: all 0.5s ease;
+}
+#blog .body .news .article a
+{
+    text-decoration: none;
+    color: black;
+}
+#blog .body .news .article:hover .img
+{
+    transform: scale(1.1);
+}
+#blog .body .news .article .uk-card-body small
+{
+    color: #A7AAAC;
+}
+#blog .body .news .article .uk-card-body .uk-card-title
+{
+    font-size: 14px;
+}
+#blog .body .news .article .uk-card-body p
+{
+    font-size: 14px;
+}
+#blog .body .populer .article a
+{
+    text-decoration: none;
+}
+#blog .body .populer .article h4
+{
+    font-size: 12px;
+}
+#blog .body .populer .article span
+{
+    font-size: 12px;
+    color: #A7AAAC;
+}
+#blog .body .populer .article .img
+{
+    overflow: hidden;
+}
+#blog .body .populer .article .img>div
+{
+    transition: all 0.5s ease;
+}
+#blog .body .populer .article:hover .img>div
+{
+    transform: scale(1.2);
+}
+#blog .body .content .artikel p
+{
+    text-align: justify;
+}
+
+#user-login .content h3
+{
+    font-size: 20px;
+}
+#user-login .content .copyright
+{
+    font-size: 12px;
+}
+#user-login
+{
+    overflow: hidden
+}
+#user-login .form-login
+{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#user-daftar .content h3
+{
+    font-size: 20px;
+}
+#user-daftar .content .copyright
+{
+    font-size: 12px;
+}
+#user-daftar
+{
+    overflow: hidden
+}
+#user-daftar .form-daftar
+{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#user-daftar .form-daftar h3
+{
+    font-size: 16px;
+}
+#user-daftar .form-daftar form
+{
+    font-size: 12px;
+}
+#user-daftar .form-daftar label
+{
+    font-size: 12px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+#user-dashboard .content-bottom .ppob nav ul.uk-navbar-nav
+{
+    overflow-x: scroll;
+}
+#user-dashboard .content-bottom .ppob nav ul::-webkit-scrollbar {
+    display: none;
+}
+#user-dashboard .content-bottom .ppob a
+{
+    text-decoration: none;
+    border-bottom: 4px solid transparent;
+    transition: all 0.5s ease;
+}
+#user-dashboard .content-bottom .ppob a:hover
+{
+    text-decoration: none;
+    border-bottom: 4px solid #2A4DDD;
+}
+#user-dashboard .content-bottom .ppob li a.uk-active
+{
+    text-decoration: none;
+    border-bottom: 4px solid #2A4DDD;
+}
+#user-dashboard .content-bottom .ppob nav>div
+{
+    overflow-x: hidden;
+}
+#user-dashboard .content-bottom .ppob .uk-navbar-nav svg
+{
+    color: #2A4DDD;
+}
+#user-dashboard .content-bottom .ppob .uk-navbar-nav h5
+{
+    white-space:nowrap;
+    font-size: 15px;
+}
+#user-dashboard .content-bottom .ppob .uk-navbar-nav li
+{
+    min-width: 130px;
+}
+#user-dashboard .content-bottom .ppob .produk .uk-card
+{
+    border: 1px solid #3F64FC;
+}
+#user-dashboard .content-bottom .ppob .produk li a>div
+{
+    transition: all 0.5s ease;
+}
+#user-dashboard .content-bottom .ppob .produk li a:hover>div
+{
+    background-color: #3F64FC;
+    color: white;
+}
+#user-dashboard .content-bottom .ppob .produk .title 
+{
+    font-size: 12px;
+}
+#user-dashboard .content-bottom .saldo
+{
+    border-left: 1px solid rgb(216, 216, 216);
+    border-top: 1px solid rgb(216, 216, 216);
+}
+#user-dashboard .content-bottom .saldo .all-saldo .coin
+{
+    border-right: 1px solid rgb(184, 184, 184);
+}
+#user-dashboard .content-bottom .saldo .all-saldo .head
+{
+    font-size: 12px;
+}
+#user-dashboard .content-bottom .saldo .top-up .body .link
+{
+    border-top: 1px solid rgb(184, 184, 184);
+}
+#user-dashboard .content-bottom .saldo .top-up .body .link a
+{
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s ease;
+}
+#user-dashboard .content-bottom .saldo .top-up .body .link a:hover
+{
+    background-color: #3F64FC;
+    color: white
+}
+#user-dashboard .content-bottom .saldo .grafik p
+{
+    font-size: 12px;
+    color: black;
+}
+#user-dashboard .content-bottom .saldo .grafik .border-bar
+{
+    border: 1px solid black;
+}
+#user-dashboard .content-bottom .saldo .grafik .border-bar span
+{
+    color: black;
+    font-size: 12px;
+}
+#user-dashboard .content-bottom .saldo .grafik .border-bar span.jumlah
+{
+    transform: rotate(90deg);
+}
+#user-riwayat-transaksi .body h3 span
+{
+    border-bottom: 5px solid #2A4DDD;
+}
+#user-riwayat-transaksi .body div span.line
+{
+    width: 150px;
+    border: 3px solid #2A4DDD;
+    background-color: #2A4DDD;
+    border-radius: 6px;
+}
+#user-riwayat-transaksi .body .form form#form-search
+{
+    border: 1px solid #CACACA;
+}
+#user-riwayat-transaksi .body .form form#form-search select,
+#user-riwayat-transaksi .body .form form#form-search input
+{
+    border: 0px solid transparent;
+}
+#user-riwayat-transaksi .body .form .isi-laporan li
+{
+    border: 1px solid #CACACA;
+}
+#user-riwayat-transaksi .body .form .isi-laporan li .tanggal
+{
+    color: #000000;
+    opacity: 0.3;
+}
+#user-leaderboard .body div span.line
+{
+    width: 150px;
+    border: 3px solid #2A4DDD;
+    background-color: #2A4DDD;
+    border-radius: 6px;
+}
+#user-leaderboard .body .content div.akun
+{
+    color: black;
+    transition: all 0.5s ease;
+}
+#user-leaderboard .body .content div.akun:hover
+{
+    background-image: linear-gradient(#44C3E6, #4468E6);
+    box-shadow: 3px 3px 10px #44C3E6;
+}
+#user-leaderboard .body .content div.akun:hover>div>div
+{
+    color:white
+}
+#user-bantuan .body div span.line
+{
+    width: 150px;
+    border: 3px solid #2A4DDD;
+    background-color: #2A4DDD;
+    border-radius: 6px;
+}
+#user-bantuan .body div.list ul
+{
+    list-style-image: url('../img/panel_user/list-icon-bantuan.png');
+}
+#user-bantuan .body div.list ul li a
+{
+    color: #757575;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+#user-bantuan .body div.list ul li a:hover
+{
+    color: #000000;
+}
+#user-bantuan .body .bantuan-bottom a
+{
+    background-color: white;
+    box-shadow: 3px 3px 8px rgba(139, 139, 139, 0.25);
+}
+#user-bantuan .body .bantuan-bottom a img
+{
+    height: 31px;
+}
+#user-bantuan .body .bantuan-bottom a
+{
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+#user-bantuan .body .bantuan-bottom a:hover
+{
+    background-color: #c7cff0;
+}
+#user-bantuan-kategori .body .list .dropdown ul li
+{
+    text-transform: capitalize;
+}
+#user-bantuan-kategori .body div span.line
+{
+    width: 150px;
+    border: 3px solid #2A4DDD;
+    background-color: #2A4DDD;
+    border-radius: 6px;
+}
+#user-bantuan-kategori .body .content .pertanyaan-terkait a
+{
+    color: #2A4DDD;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    font-size: 15px;
+}
+#user-bantuan-kategori .body .content .pertanyaan-terkait a:hover
+{
+    color: #001567;
+}
+#user-profil .body .all-saldo
+{
+    border-top: 1px solid #D3D3D3;
+}
+#user-profil .body .all-saldo .coin
+{
+    border-right: 1px solid #D3D3D3;
+}
+
+.footer
+{
+    background-image: linear-gradient(to right, #52BDE7 , #3F64FC);
+    color: white;
+}
+.footer h4
+{
+    color: white;
+    font-size: 24px;
+}
+.footer p
+{
+    font-size: 12px;
+}
+.footer .hubungi-kami form input
+{
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    border-top: 0px solid white;
+    border-left: 0px solid white;
+    border-right: 0px solid white;
+    color: white;
+}
+.footer .hubungi-kami form input::placeholder
+{
+    color: rgba(255, 255, 255, 0.313);
+    size: 10px;
+}
+.footer .hubungi-kami form input:focus
+{
+    background-color: transparent;
+    border-bottom: 1px solid rgb(47, 0, 165);
+    border-top: 0px solid rgb(47, 0, 165);
+    border-left: 0px solid rgb(47, 0, 165);
+    border-right: 0px solid rgb(47, 0, 165);
+    color: white;
+}
+.footer .alamat span.head
+{
+    font-size: 18px;
+}
+.footer .alamat p
+{
+    font-size: 14px;
+}
+.footer .informasi ul li
+{
+    font-size: 14px;
+}
+.footer .kontak-admin ul
+{
+    list-style: none;
+    font-size: 14px;
+}
+.footer .kontak-admin ul li a
+{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.footer .kontak-admin ul li a:hover
+{
+    color:rgb(36, 0, 179);
+}
+.footer .sosial-media a
+{
+    color: white;
+    transition: all 0.5s ease;
+}
+.footer .sosial-media a.twitter:hover
+{
+    color: #00acee;
+}
+.footer .sosial-media a.gmail:hover
+{
+    color: #D44638;
+}
+.footer .sosial-media a.facebook:hover
+{
+    color: #3b5998;
+}
+.footer .sosial-media a.instagram:hover
+{
+    color: #8a3ab9;
+}
+
+.totop
+{
+    position: fixed;
+    right: 5px;
+    bottom: 10px;
+}
+.totop>a
+{
+    background-color: #4065FD;
+    color: white;
+    text-decoration: none;
+}
+.totop>a:hover
+{
+    background-color: #ffffff;
+    color: #4065FD;
+}
+
+/* @xl */
+@media screen and (max-width: 1600px) {
+    
+}
+/* @l */
+@media screen and (max-width: 1200px) {
+    #user-profil .body .all-saldo .coin
+    {
+        border-right: 0px solid transparent;
+    }
+        
+    #user-profil .body .all-saldo
+    {
+        border-top: 1px solid #D3D3D3;
+    }
+}
+/* @m */
+@media screen and (max-width: 960px) {
+    .bottom-bar-header
+    {
+        padding: 8px;
+    }
+    #home .body .promo .uk-card h2
+    {
+        font-size: 25px;
+    }
+    #home .body .promo .uk-card p
+    {
+        color: white;
+        font-size: 12px;
+    }
+    #home .body .pembayaran h4
+    {
+        font-size: 12px;
+        color: grey;
+    }
+    #home .body .pembayaran img
+    {
+        height: 15px;
+        margin: 5px 5px;
+    }
+}
+/* @s */
+@media screen and (max-width: 640px) {
+    
+    #home .body .promo .uk-card h2
+    {
+        font-size: 20px;
+    }
+    #home .body .promo .uk-card p
+    {
+        color: white;
+        font-size: 12px;
+    }
+    #blog .body .populer
+    {
+        border-left: 0px solid rgba(0, 0, 0, 0.5);
+    }
+    #blog .body .uk-card-default
+    {
+        box-shadow: none !important;
+    }
+}
